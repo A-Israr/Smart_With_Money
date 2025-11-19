@@ -42,7 +42,7 @@ public class ExpenseSummary {
         double remainingBudget = budget.getMonthlyBudget() - totalExpense;
         System.out.printf("%-60s%-15.2f%n", "Your remaining budget: " , remainingBudget);
         if(remainingBudget < 0){
-            System.out.printf("%-60s%-15.2f%n", "You've exceeded your budget this month!!");
+            System.out.printf("%-60s%n", "You've exceeded your budget this month!!");
         }
     }
 }
